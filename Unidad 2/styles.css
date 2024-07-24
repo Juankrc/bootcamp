@@ -1,1 +1,73 @@
+/* Elemento tipo selector */
+H1{
+    color:blueviolet;
+    font-family: Helvetica;
+}
 
+p{
+    color: brown;
+    text-align: justify;
+    opacity: 0,8;
+}
+/* Selector de clase */
+.highlight{
+    background-color: cornflowerblue;
+}
+
+/* Selector de identidad */
+#footer{
+    background-color: mediumpurple;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Selector universal */
+*{
+    margin: 3px;
+    padding: 3px;
+}
+
+/* Selectores de agrupación */
+h2,h3{
+    text-align: center;
+    color: rgb(123, 24, 245);
+}
+.parrafo{
+    background-color: blue;
+}
+.header{
+    background-color: brown;
+    padding: 2em;
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(237, 8, 8);
+    text-align: center;
+    background-color: #4CAF50;
+    padding: 10px;
+    margin: 5px;
+    color: rgb(17, 234, 86);
+    font-size: 1.2em;
+    border-radius: 50px;
+background: #606570;
+box-shadow:  20px 20px 60px #18336a,
+             -20px -20px 60px #4493ff;
+}
+.flex-item {
+    display: flex;
+    flex-direction: row;
+    background-color: #4CAF50;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    font-size: 1.2em;
+    border-radius: 50px;
+background: #2e63cc;
+box-shadow:  20px 20px 60px #18336a,
+             -20px -20px 60px #4493ff;
+}
+.footer{}
